@@ -5,37 +5,96 @@
   <style>
     body{
       font-family: Arial;
-      max-width:800px;
-      margin:auto;
-      padding:40px;
-      line-height:1.6;
+      max-width: 900px;
+      margin: auto;
+      padding: 40px;
+      line-height: 1.7;
+      color: #222;
     }
 
-    h1{color:#333;}
+    h1{
+      color:#333;
+      margin-bottom: 8px;
+    }
+
+    h2{
+      margin-top: 40px;
+      margin-bottom: 18px;
+    }
+
+    h3{
+      margin-bottom: 8px;
+    }
 
     a{
       color:#2d6cdf;
       text-decoration:none;
       font-weight:bold;
+      margin-right: 18px;
     }
 
     a:hover{
       text-decoration:underline;
     }
 
+    .header{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap: 24px;
+      margin-bottom: 10px;
+    }
+
+    .header-text{
+      flex: 1;
+    }
+
+    .profile-photo{
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 12px;
+      border: 1px solid #ddd;
+    }
+
+    .subtitle{
+      margin-top: 0;
+      color: #555;
+      font-size: 18px;
+    }
+
     .project{
       margin-bottom:30px;
-      padding-bottom:20px;
+      padding-bottom:24px;
       border-bottom:1px solid #eee;
     }
 
+    .timeline{
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 12px;
+      font-weight: bold;
+    }
+
+    .links{
+      margin-top: 14px;
+    }
+
+    .contact p{
+      margin: 8px 0;
+    }
   </style>
 </head>
 
 <body>
 
-<h1>Zihao Huang</h1>
-<p>UX Researcher | Social Science Researcher</p>
+<div class="header">
+  <div class="header-text">
+    <h1>Zihao Huang</h1>
+    <p class="subtitle">University of Chicago | UX Researcher | Social Science Researcher</p>
+  </div>
+  <img src="IMG_8149.jpeg" alt="Photo of Zihao Huang" class="profile-photo">
+</div>
 
 <h2>About</h2>
 
@@ -55,69 +114,89 @@ My work bridges social science research and UX research, with the goal of inform
 
 
 <div class="project">
-<h3>Dating App Simulator Experiment</h3>
+  <h3>Dating App Simulator Experiment</h3>
+  <div class="timeline">2025.9 – Present | University of Chicago MAPSS Thesis Project</div>
 
-<p>
-Designed and built a simulated dating app environment to experimentally study how interaction styles influence user psychology.
-Using a 2×2 experimental design (active vs passive engagement × high vs low feedback), this study examines how dating app interactions
-affect state self-esteem, loneliness, and perceived stress.
-</p>
+  <p>
+    This project is part of my graduate research on how dating app use may shape users’ psychological experiences, including self-esteem,
+    loneliness, and perceived stress. The study uses a 2×2 experimental design comparing <em>active vs. passive engagement</em> and
+    <em>high vs. low social feedback</em> in order to examine how different forms of platform interaction affect users’ emotional responses.
+  </p>
 
-<a href="https://alexandersol23.github.io/dating-app-simulator/">Launch Simulator</a>
+  <p>
+    To support this research, I designed and built a simulated dating app environment that allows participants to move through structured
+    interaction conditions in a way that resembles real app use. The research proposal outlines the theoretical background, research questions,
+    experimental design, and broader significance of the study, while the simulator demonstrates the interactive environment used in the project.
+  </p>
+
+  <div class="links">
+    <a href="Dating Apps and Mental Health Research Proposal.pptx">View Research Proposal</a>
+    <a href="https://alexandersol23.github.io/dating-app-simulator/">Launch Simulator</a>
+  </div>
 </div>
 
 
 
 <div class="project">
-<h3>Tinder UX Research Study</h3>
+  <h3>Tinder UX Research Study</h3>
+  <div class="timeline">2025.9 - 2025.12 | UX Research Project</div>
 
-<p>
-Conducted a mixed-methods UX research project examining user engagement and subscription experiences on Tinder.
-The study combined survey data and qualitative interviews to identify behavioral patterns, motivations,
-and barriers preventing users from moving from browsing to meaningful conversations.
-</p>
+  <p>
+    Conducted a mixed-methods UX research project examining user engagement and subscription experiences on Tinder.
+    The study combined survey data and qualitative interviews to identify behavioral patterns, motivations,
+    and barriers preventing users from moving from browsing to meaningful conversations.
+  </p>
 
-<a href="ZihaoHuang_UXR_TinderEngagementAndSubscriptions.pptx">View Case Study</a>
+  <div class="links">
+    <a href="ZihaoHuang_UXR_TinderEngagementAndSubscriptions.pptx">View Case Study</a>
+  </div>
 </div>
 
 
 
 <div class="project">
-<h3>DoorDash Home – Platform Strategy</h3>
+  <h3>DoorDash Home – Platform Strategy</h3>
+  <div class="timeline">2026.1 - 2026. 3 | Strategic Marketing and Product Concept Project</div>
 
-<p>
-Developed a strategic product concept proposing "DoorDash Home," a platform extension connecting users
-with local home services such as cleaning and moving. The project included market sizing,
-competitive analysis, and consumer segmentation, positioning the service around speed,
-transparency, and trust.
-</p>
+  <p>
+    Developed a strategic product concept proposing "DoorDash Home," a platform extension connecting users
+    with local home services such as cleaning and moving. The project included market sizing,
+    competitive analysis, and consumer segmentation, positioning the service around speed,
+    transparency, and trust.
+  </p>
 
-<a href="StrategicMarketingPlan_DoorDashHome.pptx">View Project</a>
+  <div class="links">
+    <a href="StrategicMarketingPlan_DoorDashHome.pptx">View Project</a>
+  </div>
 </div>
 
 
 
 <div class="project">
-<h3>Le Coq Sportif Integrated Marketing Campaign</h3>
+  <h3>Le Coq Sportif Integrated Marketing Campaign</h3>
+  <div class="timeline">2024.6 - 2024.9 | Integrated Marketing Campaign</div>
 
-<p>
-Contributed to the 2024 Shanghai Cycling Campaign for Le Coq Sportif, developing social media content
-and messaging aimed at engaging young urban cyclists and promoting cycling apparel.
-The campaign increased brand engagement and was recognized as the
-2024 Annual Sport Integrated Marketing Communication Campaign Case.
-</p>
+  <p>
+    Contributed to the 2024 Shanghai Cycling Campaign for Le Coq Sportif, developing social media content
+    and messaging aimed at engaging young urban cyclists and promoting cycling apparel.
+    The campaign increased brand engagement and was recognized as the
+    2024 Annual Sport Integrated Marketing Communication Campaign Case.
+  </p>
 
-<a href="LeCoqSportif_ShanghaiNewCityCycling_MarketingProposal.pdf">View Campaign</a>
+  <div class="links">
+    <a href="LeCoqSportif_ShanghaiNewCityCycling_MarketingProposal.pdf">View Campaign</a>
+  </div>
 </div>
 
 
 
 <h2>Contact</h2>
 
-<p>Email: isaaczihaohuang@outlook.com</p>
-<p>GitHub: https://zihaohuang89.github.io/ZihaoHuang_Portfolio/</p>
-<p>LinkedIn: http://linkedin.com/in/zihao-huang-712353267</p>
-
+<div class="contact">
+  <p>Email: <a href="mailto:isaaczihaohuang@outlook.com">isaaczihaohuang@outlook.com</a></p>
+  <p>GitHub: <a href="https://zihaohuang89.github.io/ZihaoHuang_Portfolio/">zihaohuang89.github.io/ZihaoHuang_Portfolio/</a></p>
+  <p>LinkedIn: <a href="http://linkedin.com/in/zihao-huang-712353267">linkedin.com/in/zihao-huang-712353267</a></p>
+</div>
 
 </body>
 </html>
